@@ -16,6 +16,10 @@
     box-shadow: 0 3px 0 0 rgba(226, 228, 231, 0.75);
 }
 
+img:not([src]) {
+    visibility: hidden;
+}
+
 // .accordion-button:focus {
 //     border-color: rgba(0, 0, 0, 0.125);
 //     box-shadow: 0 0 0 0rem rgba(13, 110, 253, 0.25);

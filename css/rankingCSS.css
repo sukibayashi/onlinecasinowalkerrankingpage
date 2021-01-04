@@ -17,6 +17,10 @@
           box-shadow: 0 3px 0 0 rgba(226, 228, 231, 0.75);
 }
 
+img:not([src]) {
+  visibility: hidden;
+}
+
 .list-group-flush > .list-group-item {
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
