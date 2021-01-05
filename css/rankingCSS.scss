@@ -231,6 +231,7 @@ img:not([src]) {
 .rankingmenu_card {
     margin: 0 auto !important;
     width: 100%;
+    border: none;
 
     .rankingmenu_ul {
         list-style: none;
@@ -285,6 +286,11 @@ img:not([src]) {
 
             .ranking_accordion_wrapper {
                 width: 100%;
+
+                .ranking_accordion_heading {
+                    border-left: 1px solid rgba(0, 0, 0, 0.125);
+                    border-right: 1px solid rgba(0, 0, 0, 0.125);
+                }
 
                 .ranking_accordion_heading a::after {
                     font-family: "Font Awesome 5 Free";

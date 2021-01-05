@@ -219,6 +219,7 @@ img:not([src]) {
 .rankingmenu_card {
   margin: 0 auto !important;
   width: 100%;
+  border: none;
 }
 
 .rankingmenu_card .rankingmenu_ul {
@@ -293,6 +294,11 @@ img:not([src]) {
 
 .rankingmenu_card .rankingmenu_ul .ranking_accordion .ranking_accordion_wrapper {
   width: 100%;
+}
+
+.rankingmenu_card .rankingmenu_ul .ranking_accordion .ranking_accordion_wrapper .ranking_accordion_heading {
+  border-left: 1px solid rgba(0, 0, 0, 0.125);
+  border-right: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .rankingmenu_card .rankingmenu_ul .ranking_accordion .ranking_accordion_wrapper .ranking_accordion_heading a::after {
