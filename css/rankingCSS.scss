@@ -258,12 +258,26 @@ img:not([src]) {
                     img {
                         width: 29px;
                         height: 100%;
-                        margin-right: 2%;
+                        margin-right: 12px;
                     }
                 }
 
                 .rankingmenu_li_left:hover {
                     opacity: 0.7;
+                }
+
+                .rankingmenu_li_left2 {
+                    width: 65%;
+                    float: left;
+                    display: flex;
+                    align-items: center;
+                    transition: all 0.2s ease-in-out;
+
+                    img {
+                        width: 28px;
+                        height: 100%;
+                        margin-right: 9px;
+                    }
                 }
 
                 .rankingmenu_li_right {
@@ -426,7 +440,7 @@ img:not([src]) {
         // ランキングカードランクアイコン
         .rankingpage_card_Rank2 {
             position: absolute;
-            top: 12px;
+            top: 7px;
             left: 6px;
 
             img {

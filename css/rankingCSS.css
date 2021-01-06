@@ -258,11 +258,30 @@ img:not([src]) {
 .rankingmenu_card .rankingmenu_ul a .rankingmenu_li .rankingmenu_li_left img {
   width: 29px;
   height: 100%;
-  margin-right: 2%;
+  margin-right: 12px;
 }
 
 .rankingmenu_card .rankingmenu_ul a .rankingmenu_li .rankingmenu_li_left:hover {
   opacity: 0.7;
+}
+
+.rankingmenu_card .rankingmenu_ul a .rankingmenu_li .rankingmenu_li_left2 {
+  width: 65%;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.rankingmenu_card .rankingmenu_ul a .rankingmenu_li .rankingmenu_li_left2 img {
+  width: 28px;
+  height: 100%;
+  margin-right: 9px;
 }
 
 .rankingmenu_card .rankingmenu_ul a .rankingmenu_li .rankingmenu_li_right {
@@ -434,7 +453,7 @@ img:not([src]) {
 
 .rankingpage_card .rankingpage_card_tittle .rankingpage_card_Rank2 {
   position: absolute;
-  top: 12px;
+  top: 7px;
   left: 6px;
 }
 
