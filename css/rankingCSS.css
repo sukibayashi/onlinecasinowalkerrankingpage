@@ -62,21 +62,9 @@ img:not([src]) {
   display: none;
 }
 
-@media screen and (max-width: 1024px) {
-  .brspace {
-    display: block;
-  }
-}
-
 .lastupdate {
   text-align: end;
   color: gray;
-}
-
-@media screen and (max-width: 479px) {
-  .lastupdate {
-    text-align: center;
-  }
 }
 
 .rankingpage_to_toppage .rankingpage_btn_totoppage {
@@ -684,5 +672,20 @@ img:not([src]) {
 .rankingpage_IMG img {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .brspace {
+    display: block;
+  }
+  .rankingpage_card .rankingpage_card_content .rankingpage_info {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .lastupdate {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=rankingCSS.css.map */
