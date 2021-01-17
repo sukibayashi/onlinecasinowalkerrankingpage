@@ -113,6 +113,7 @@ img:not([src]) {
 .ranking_CARD {
     border: 1px solid #d8d8d8;
     height: 100%;
+    margin-top: 0px;
 }
 
 .ranking_container {
@@ -199,6 +200,12 @@ img:not([src]) {
         .rankingpage_btn:hover {
             opacity: 0.7;
         }
+
+        .rankingpage_card_paddingLeft_IMGA{
+            br{
+                display: none;
+            }
+        }
     }
 }
 
@@ -226,6 +233,10 @@ img:not([src]) {
         padding: 20px 25px;
         margin: 0;
     }
+
+    p{
+        display: none;
+    }
 }
 
 .rankingmenu_card {
@@ -247,6 +258,7 @@ img:not([src]) {
                 color: #00375e;
                 font-weight: 700;
                 justify-content: space-between;
+                padding: 0px 0px 0px 0px;
 
                 .rankingmenu_li_left {
                     width: 65%;
@@ -289,6 +301,10 @@ img:not([src]) {
                     .rankingmenu_li_star {
                         display: flex;
                         margin-right: 8%;
+
+                        br{
+                            display: none;
+                        }
                     }
                 }
             }
@@ -372,6 +388,10 @@ img:not([src]) {
         color: #35529a;
         font-weight: 700;
         text-align: center;
+
+        br{
+            display: none;
+        }
     }
 }
 
@@ -409,6 +429,7 @@ img:not([src]) {
                 margin-left: 78px;
                 color: #fff;
                 text-shadow: 2px 3px 0px #00000066;
+                margin-top: 0px;
                 margin-bottom: 0px;
                 display: flex;
                 align-items: center;
@@ -508,6 +529,10 @@ img:not([src]) {
             border-radius: 10px;
             border: 2px solid #4caf50;
 
+            p{
+                display: none;
+            }
+
             .hitokoto-circle1 {
                 font-size: 16px;
                 line-height: 1.5;
@@ -587,6 +612,7 @@ img:not([src]) {
                 }
 
                 li::before {
+                    display: inline;
                     right: 10px;
                     font-family: "Font Awesome 5 Free";
                     content: "\f111";
@@ -603,11 +629,14 @@ img:not([src]) {
             .rankingpage_card_payment_card {
                 // background-color: #01c0d2;
                 background-color: #f0f0f0;
+                margin-left: 0px;
+                margin-right: 0px;
 
                 .payment_title {
                     font-size: 15px;
                     color: black;
                     font-weight: bold;
+                    margin-top: 0px;
                 }
 
                 .payment_circle_IMG {
