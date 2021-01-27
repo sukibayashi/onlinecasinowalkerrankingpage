@@ -601,7 +601,7 @@ img:not([src]) {
 }
 
 .rankingpage_card .rankingpage_card_content .hitokoto .hitokoto-circle2:after {
-  content: "ン";
+  content: "ト";
   position: absolute;
   margin-top: 0.2em;
   font-weight: bold;
